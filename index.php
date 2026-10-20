@@ -142,10 +142,9 @@ $total_orders = $row_orders['total'];
     <h3><?php echo $total_sales; ?></h3>
     <h5>
         TSh <?php echo number_format($total_revenue ?? 0); ?>
-    </h5>
-    <p>Total Sales Revenue</p>
+    Total Sales Revenue</h5>
+    
 </div>
-                                <p>Record product sales</p>
                             </div>
                             <div class="icon">
                                 <i class="fas fa-shopping-cart"></i>
